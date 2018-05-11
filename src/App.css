@@ -1,0 +1,25 @@
+.app {
+}
+
+header {
+  background-color: #000;
+  color: #FFF;
+  padding: 5px 10px;
+}
+
+nav a {
+  color: #FFF;
+  margin-right: 20px;
+}
+
+.content {
+  margin: 10px;
+  max-width: 960px;
+}
+
+input {
+  box-sizing: border-box;
+  font-size: 1.1em;
+  padding: 5px;
+  width: 100%;
+}

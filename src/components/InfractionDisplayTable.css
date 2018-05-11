@@ -1,0 +1,17 @@
+.infractions-display-table {
+  margin: 10px 0;
+}
+
+.infractions-display-table table {
+  border-collapse: collapse;
+}
+
+.infractions-display-table th {
+  background-color: #000;
+  color: #FFF;
+}
+
+.infractions-display-table td, th {
+  border: solid 1px #000;
+  padding: 10px 15px;
+}
