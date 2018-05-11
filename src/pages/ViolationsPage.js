@@ -1,6 +1,7 @@
 import React from 'react';
+import './ViolationsPage.css';
 
-export default class DefaultPage extends React.Component {
+export default class ViolationsPage extends React.Component {
 
   componentDidMount() {
     fetch('https://cpsc-api.herokuapp.com/api/violations')
@@ -27,7 +28,7 @@ export default class DefaultPage extends React.Component {
     }
 
     return (
-      <div className="violations-list-page">
+      <div className="violations-page">
         <h2>Violations</h2>
         {list}
       </div>

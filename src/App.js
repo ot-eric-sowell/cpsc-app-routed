@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Link, Route } from 'react-router-dom';
-import DefaultPage from './pages/DefaultPage.js';
+import ViolationsPage from './pages/ViolationsPage.js';
 import About from './pages/AboutPage.js';
 import InfractionsPage from './pages/InfractionsPage.js';
 import SearchPage from './pages/SearchPage.js';
@@ -24,7 +24,7 @@ class App extends Component {
             </header>
 
             <div className="content">
-              <Route path="/" exact component={DefaultPage} />
+              <Route path="/" exact component={ViolationsPage} />
               <Route path="/violation/:id" component={InfractionsPage} />
               <Route path="/search" component={SearchPage} />
               <Route path="/about" component={About} />
