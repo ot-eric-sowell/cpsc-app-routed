@@ -23,6 +23,8 @@ export default class InfractionsPage extends React.Component {
     return (
       <div>
 
+        <h2>{this.state.apiResult.violation}</h2>
+
         <InfractionDisplayTable infractions={this.state.apiResult.infractions} />
 
       </div>
